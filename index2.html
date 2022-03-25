@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+    <script src="scripts/jquery.ui.touch-punch.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="tempo">
+        <div class="pontos">
+            <h1 >Pontuação</h1>
+            <h2 class="score">0</h2>
+        </div>
+        <h1>Tempo</h1>
+        
+        <h2 class="tiempo"></h2>
+        <h2 class="acrescimo">+3:00</h2>
+        <h1 class="fim"></h1>
+
+    </div>
+
+        <img class="receita" alt="">
+        <img class="inicio" src="Inicio-removebg-preview.png" alt="">
+        <ul type="none" id="lista">
+            <li><img class="mago" src="23.png" id="1"></li>
+            <li><img class="mago" src="17.png" id="2"></li>
+            <li><img class="mago" src="18.png" id="3"></li>
+        </ul>
+        
+        <ul type="none" id="lista">
+            <li><img class="mago" src="11.png" id="4"></li>
+            <li><img class="mago" src="10.png" id="5"></li>
+            <li><img class="mago" src="12.png" id="6"></li>
+        </ul>
+        <ul type="none" id="lista">
+            <li><img class="mago" src="26.png" id="7"></li>
+            <li><img class="mago" src="15.png" id="8"></li>
+            <li><img class="mago" src="20.png" id="9"></li>
+        </ul>
+        <ul>
+            <li>
+            <img src="pergaminho1-removebg-preview.png" class="pergaminho" id="10" alt="receita-vigor-removebg-preview.png" value="" onclick="showrecipe('pergaminho')" >
+            </li>
+            <li><img src="pergaminho2-removebg-preview.png" class="pergaminho2" id="15" alt="receita-mana-removebg-preview.png" value="" onclick="showrecipe('pergaminho2')" >
+            </li>
+            <li><img src="pergaminho3-removebg-preview.png" class="pergaminho3" id="20" alt="receita-disciplina-removebg-preview.png"  value="" onclick="showrecipe('pergaminho3')" >
+            </li>
+            
+        </ul>
+        <ul type="none" class="potions">
+            <li class="itens"></li>
+            
+        </ul>
+        
+    
+    <img src="calderon.png" class="calderon">
+    
+    
+    <script src="script2.js"></script>
+
+</body>
+</html>

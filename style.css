@@ -1,0 +1,119 @@
+
+body{
+    background-image: url('parede.png');
+}
+.mago {
+    width: 80px;
+    height: 100px;
+    margin: 10px;
+    
+    
+}
+
+body ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    
+    
+
+}
+.amigo {
+    color: brown;
+    position: 50px 50px 50px 50px;
+
+}
+.calderon {
+    width: 250px;
+    height: 180px;
+    margin-left: 400px;
+    margin-top: -50px;
+}
+
+.pergaminho{
+    position: absolute;
+    top: 160px;
+    margin-left: 800px;
+    width: 180px;
+    height: 180px;
+    
+}
+
+.pergaminho3{
+    position: absolute;
+    top: 540px;
+    margin-left: 800px;
+    width: 180px;
+    height: 180px;
+    
+}
+.pergaminho2{
+    position: absolute;
+    top: 340px;
+    margin-left: 800px;
+    width: 180px;
+    height: 180px;
+   
+}
+.potions{
+    position: absolute;
+    top: 10px;
+    margin-left: 550px;
+    width: 400px;
+    height: 50px;
+}
+.jon {
+    width: 100px;
+    height: 100px;
+}
+.tempo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+}
+.tiempo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@keyframes animax{
+    from { position: 200px 200px;}
+    to {position: 400px 400px}
+}
+.acrescimo{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.receita{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.pontos{
+    position: absolute;
+    margin-left:-700px;
+    margin-bottom: 10px;
+    height: 10px;
+}
+.score{
+    margin-left: 70px;
+    margin-top: -20px;
+}
+.fim{
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+.inicio{
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+/* .pergaminho:hover .acrescimo{
+    transform: translateY(-20px);
+    transition: 1s;
+} */
